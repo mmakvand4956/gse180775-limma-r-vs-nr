@@ -47,3 +47,13 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+# ---- project-specific ignores (added by Mina) ----
+# Raw GEO downloads and other large local data
+data/
+data/raw/
+
+# Local renv library cache (the lockfile stays tracked)
+renv/library/
+
+# Build artifacts (we attach the ZIP to Releases instead)
+artifact/
